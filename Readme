@@ -1,0 +1,50 @@
+Jar needed!
+1)JavaMail API jar
+2)Java Activation jar 
+3)Selenium 
+4)Testng 
+
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>2.53.0</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4.7</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.activation/activation -->
+<dependency>
+    <groupId>javax.activation</groupId>
+    <artifactId>activation</artifactId>
+    <version>1.1</version>
+    <scope>test</scope>
+</dependency>
+
+
+Problem Statement:
+The major difficulties faced were –
+
+1)The third party codes are subject to change beyond our control. In fact, the process is quite frequent.
+  This would have increased the turnaround time for manually handling the automation scripts.
+2)The Xpaths you find for Gmail pages are more often unreachable when using selector options. 
+  One will have to use the positional path expressions (the ones that are obtained by the location of an element on a webpage).
+So, for example, accessing the encircled element would require you to create the following Xpath-
+html/body/div[7]/div[3]/div/div[1]/div[4]/div[1]/div[1]/div[3]/div/div/div/form/fieldset[2]/div/div/div[2]/table/tbody/tr/td/table/tbody/tr/td/div/input[2]
+
+
+With the help of JavaMail API, we can connect to the user’s mailbox by providing the username and the password. 
+Once the connection has been made, the desired email can be accessed and manipulated.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" style="background-color:#e96125;font-family:sans-serif;font-size:13px;padding-left:8px;padding-right:8px">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Order Placed Email Template</title>
+
+  <style type="text/css">
+	@media only screen{
+		html{
+			min-height:100%;
+			background:#f3f3f3;
+		}
+
+}	@media only screen and (max-width:596px){
+		.small-float-center{
+			margin:0 auto !important;
+			float:none !important;
+			text-align:center !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body img{
+			width:auto;
+			height:auto;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body center{
+			min-width:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .container{
+			width:95% !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .columns{
+			height:auto !important;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			box-sizing:border-box;
+			padding-left:16px !important;
+			padding-right:16px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .columns .columns{
+			padding-left:0 !important;
+			padding-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .collapse .columns{
+			padding-left:0 !important;
+			padding-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		th.small-6{
+			display:inline-block !important;
+			width:50% !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		th.small-12{
+			display:inline-block !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.columns th.small-12{
+			display:block !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.menu{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.menu td,table.menu th{
+			width:auto !important;
+			display:inline-block !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.menu.vertical td,table.menu.vertical th{
+			display:block !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.menu[align=center]{
+			width:auto !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .container{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .primary-column,table.body .secondary-column{
+			padding-bottom:20px !important;
+			padding-left:16px !important;
+			padding-right:16px !important;
+			padding-top:20px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .get-the-app-column{
+			padding-left:16px !important;
+			padding-right:16px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .get-the-app-column--first{
+			padding-bottom:10px !important;
+			padding-top:32px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .get-the-app-column--second{
+			padding-bottom:32px !important;
+			padding-top:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .banner-column{
+			padding-left:0 !important;
+			padding-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .footer-column{
+			padding-left:0 !important;
+			padding-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .footer-icons{
+			height:40px !important;
+			margin-right:8px !important;
+			width:40px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .footer-icons:last-child{
+			margin-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.get-the-app__heading{
+			margin-top:0 !important;
+			text-align:center !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.play-store-img{
+			margin-right:12px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .marketing__product-cart--first{
+			border-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .marketing__product-cart--third{
+			border-bottom:1px solid #eee;
+			border-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-delivered__tick-img{
+			height:60px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-delivered__title{
+			font-size:16px !important;
+			margin-top:16px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-cancelled__cross-img{
+			height:59px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-cancelled__heading{
+			font-size:16px !important;
+			margin-top:28px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .order-placed__schedule-message{
+			padding-bottom:20px !important;
+			padding-top:20px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .order-placed__promises{
+			border-bottom:1px solid #eee;
+			border-right:none !important;
+			padding-bottom:24px !important;
+			padding-top:24px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .order-placed__promises--last{
+			border-bottom:none;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__schedule-message{
+			padding-bottom:20px !important;
+			padding-top:20px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__order-items tr th{
+			font-size:12px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__cashback-amount{
+			padding:20px 16px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__cashback-amount-img{
+			float:left;
+			margin-top:5px;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__return{
+			font-size:13px !important;
+			padding:20px 16px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__return-img{
+			float:left;
+			margin-top:5px;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__items-missing{
+			display:block !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__max-cashback{
+			margin-left:40px;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__delivery-separator{
+			display:none;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__deliverable-address,.order-placed__schedule-time{
+			display:block !important;
+			margin-top:8px;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__promises-img{
+			float:left;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__promises-desc{
+			display:block;
+			margin-left:66px;
+			text-align:left;
+		}
+
+}	@media only screen and (max-width:596px){
+		.order-placed__promises-text{
+			margin-bottom:4px !important;
+			margin-top:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.savings-coupon__label{
+			margin-top:20px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		.savings-coupon__text{
+			font-size:18px !important;
+			margin-bottom:24px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .savings-cart{
+			padding-left:0 !important;
+			padding-right:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .savings-cart--first{
+			padding-right:0 !important;
+			padding-bottom:4px !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .savings-cart--second{
+			padding-left:0 !important;
+		}
+
+}	@media only screen and (max-width:596px){
+		table.body .savings-cart .savings-cart-column{
+			padding-left:16px !important;
+			padding-right:16px !important;
+		}
+
+}</style></head>
+  <body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;background-color:#e96125;box-sizing:border-box;color:#0a0a0a;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;margin:0;min-width:100%;padding:0;padding-left:8px;padding-right:8px;text-align:left;width:100%!important">
+    <span class="preheader" style="color:#f3f3f3;display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important;opacity:0;overflow:hidden;visibility:hidden"></span>
+    <table class="body" style="margin:0;background:#f3f3f3;background-color:#e96125;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;padding:0;padding-left:8px;padding-right:8px;text-align:left;vertical-align:top;width:100%;">
+      <tr style="padding:0;text-align:left;vertical-align:top;">
+        <td class="center" align="center" valign="top" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+          <center style="min-width:580px;width:100%;">
+            <!-- Renders partials/header.html -->
+            <table align="center" class="container logo-container float-center" style="margin:0 auto;background:#fefefe;background-color:#e96125;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:36px;margin-top:36px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+              <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top;">
+                  <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+                    <center style="min-width:580px;width:100%;"><img alt="Grofers Logo" class="grofers-logo float-center" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/Grofers.png" style="-ms-interpolation-mode:bicubic;Margin:0 auto;clear:both;display:block;float:none;height:38px;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decoration:none;width:auto">
+                    </center>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+              <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top;">
+                  <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+                      <tbody>
+                        <tr style="padding:0;text-align:left;vertical-align:top;">
+                          <th class="primary-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:left;width:564px;">
+                            <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                              <tr style="padding:0;text-align:left;vertical-align:top;">
+                                <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                                  <h6 class="order-placed__customer-name" style="margin:0;margin-bottom:0;color:inherit;font-family:sans-serif;font-size:18px;font-weight:400;line-height:1.3;padding:0;text-align:left;word-wrap:normal;">Hi Sarthak garg
+                                  </h6>
+                                  <p class="order-placed__title hyphens" style="-ms-hyphens:initial;-webkit-hyphens:initial;margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;margin-top:12px;padding:0;text-align:left;">Thank you for placing an order with Grofers. Your order details are given below.</p>
+                                </th>
+                                <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+                              </tr>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+            <tbody>
+              <tr style="padding:0;text-align:left;vertical-align:top;">
+                <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+                  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+                    <tbody>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <th class="primary-column order-placed__schedule-message small-12 large-12 columns first last" style="margin:0 auto;background-color:#fcfcfc;border-bottom:1px solid #eee;border-top-left-radius:6px;border-top-right-radius:6px;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:20px;padding-left:32px;padding-right:32px;padding-top:20px;text-align:left;width:564px;">
+                          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                            <tr style="padding:0;text-align:left;vertical-align:top;">
+                              <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                                <p class="text-center" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:5px;padding:0;text-align:center;"><img class="order-placed__tick-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/tick-icon.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;height:21px;max-width:100%;outline:0;text-decoration:none;vertical-align:middle;width:auto" alt="tick-icon.png"><span class="order-placed__schedule-heading" style="color:#333;font-size:16px;font-weight:500;margin-left:5px;vertical-align:middle">Order Successfully Placed</span>
+                              </p>
+                            </th>
+                            <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+                          </tr>
+                        </table>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+                  <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top;">
+                      <th class="secondary-column order-placed__delivery small-12 large-12 columns first last" style="margin:0 auto;border-bottom:1px solid #eee;border-top-left-radius:6px;border-top-right-radius:6px;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:left;width:564px;">
+                        <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                          <tr style="padding:0;text-align:left;vertical-align:top;">
+                            <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                              <p class="para--no-margin" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:0;padding:0;text-align:left;"><img class="order-placed__schedule-time-img" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/Clock.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;height:15px;margin-right:4px;max-width:100%;outline:0;text-decoration:none;vertical-align:middle;width:auto" alt="Clock.png"><span class="order-placed__schedule-subheading text-upper" style="color:#666;display:inline-block;font-size:14px;font-weight:500;text-transform:uppercase;vertical-align:middle;width:144px">Delivery Time</span> <span class="order-placed__delivery-separator" style="margin-left:24px;margin-right:12px">:</span> <span class="order-placed__schedule-time display--inline-block vertical-align--middle" style="color:#333;display:inline-block;font-size:14px;font-weight:600;vertical-align:middle">06 Jul 2018 | 8-11 pm</span>
+                            </p>
+                          </th>
+                          <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+                <tbody>
+                  <tr style="padding:0;text-align:left;vertical-align:top;">
+                    <th class="secondary-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:left;width:564px;">
+                      <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                        <tr style="padding:0;text-align:left;vertical-align:top;">
+                          <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                            <p class="para--no-margin" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:0;padding:0;text-align:left;"><img class="order-placed__location-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/location.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;height:13px;margin-right:4px;max-width:100%;outline:0;text-decoration:none;vertical-align:middle;width:auto" alt="location.png"><span class="order-placed__schedule-subheading text-upper" style="color:#666;display:inline-block;font-size:14px;font-weight:500;text-transform:uppercase;vertical-align:middle;width:144px">Delivery Address</span> <span class="order-placed__delivery-separator" style="margin-left:24px;margin-right:12px">:</span> <span class="order-placed__deliverable-address display--inline-block vertical-align--top" style="color:#535353;display:inline-block;font-size:14px;font-weight:500;vertical-align:top"><span class="order-placed__deliverable-name" style="color:#333;font-size:14px;font-weight:600">Sarthak garg</span>
+                            <br><span>H.No. 700 , first floor Islampur colony<br>Sector 38<br>Gurugram</span>
+                            <br><span class="order-placed__deliverable-contact" style="color:#535353;font-size:14px;font-weight:500">Phone: 8826156267</span></span>
+                          </p>
+                        </th>
+                        <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+                      </tr>
+                    </table>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+    <tbody>
+      <tr style="padding:0;text-align:left;vertical-align:top;">
+        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+          <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+            <tbody>
+              <tr style="padding:0;text-align:left;vertical-align:top;">
+                <th class="secondary-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:left;width:564px;">
+                  <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                    <tr style="padding:0;text-align:left;vertical-align:top;">
+                      <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                        <p class="order-placed__payment-mode" style="margin:0;margin-bottom:0;color:#333;font-family:sans-serif;font-size:16px;font-weight:500;height:32px;line-height:1.4;margin-top:5px;padding:0;text-align:center;"><img class="order-placed__payment-mode-img" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/Payment.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;height:32px;margin-right:4px;max-width:100%;outline:0;text-decoration:none;vertical-align:middle;width:auto" alt="Payment.png"><span class="vertical-align--middle" style="vertical-align:middle"> Paid Online  </span><span>₹2526</span>
+                      </p>
+                      <p class="order-placed__savings-amount--first-card" style="margin:0;margin-bottom:0;color:#ee0606;font-family:sans-serif;font-size:16px;font-weight:500;line-height:1.4;margin-top:5px;padding:0;text-align:center;">You Saved ₹825 (24.62%)</p>
+                    </th>
+                    <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+<tbody>
+  <tr style="padding:0;text-align:left;vertical-align:top;">
+    <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+      <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+        <tbody>
+          <tr style="padding:0;text-align:left;vertical-align:top;">
+            <th class="secondary-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:left;width:564px;">
+              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                <tr style="padding:0;text-align:left;vertical-align:top;">
+                  <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                    <p class="order-placed__store-name" style="margin:0;margin-bottom:0;color:#333;font-family:sans-serif;font-size:14px;font-weight:500;line-height:1.4;margin-top:5px;padding:0;text-align:left;">Super Store - Sector 48</p>
+                    <p class="order-placed__order-id" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:8px;padding:0;text-align:left;">Order Id: #ORD032032190</p>
+                    <div class="solid-separator" style="border-top:1px solid #eee;margin-bottom:16px;margin-top:16px;"></div>
+                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                      <tbody class="order-placed__order-items">
+                        <tr style="padding:0;text-align:left;vertical-align:top;">
+                          <th class="items-column" style="margin:0;color:#333;font-family:sans-serif;font-size:13px;font-weight:600;line-height:normal;padding:0;padding-bottom:16px;text-align:left;text-transform:uppercase;width:50%;">Items</th>
+                          <th class="price-column" style="margin:0;color:#333;font-family:sans-serif;font-size:13px;font-weight:600;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-transform:uppercase;width:18%;">Mrp</th>
+                          <th class="price-column" style="margin:0;color:#333;font-family:sans-serif;font-size:13px;font-weight:600;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-transform:uppercase;width:18%;">Price</th>
+                          <th class="qty-column" style="margin:0;color:#333;font-family:sans-serif;font-size:13px;font-weight:600;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-transform:uppercase;width:14%;">Qty</th>
+                          <th class="total-price-column" style="margin:0;color:#333;font-family:sans-serif;font-size:13px;font-weight:600;line-height:normal;padding:0;padding-bottom:16px;text-align:right;text-transform:uppercase;width:18%;">Total</th>
+                        </tr>
+                        <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Vim Lemon Dishwash Gel (Bottle) - Pack of 2</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹310
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹228
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹228
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Catch Coriander Powder/Dhania</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹52
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹37
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">2</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹74
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Chuk-De Cumin Seeds/Jeera</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹80
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹67
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹67
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Catch Red Chilli Powder</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹29
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹21
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">4</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹84
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Maggi Hot &amp; Sweet Tomato Chilli Sauce</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹152
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹112
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹112
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Kissan Mixed Fruit Jam</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹135
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹120
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹120
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Bambino Premium Spirali Pasta</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹60
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹54
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">4</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹216
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Bambino Roasted Vermicelli</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹90
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹72
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹72
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Fortune Premium Kachi Ghani Pure Mustard Oil (Bottle)</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹142
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹101
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">3</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹303
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Rajdhani Mota Poha</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹57
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹45
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">4</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹180
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Rajdhani Daliya</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹32
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹25
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">3</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹75
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Catch Turmeric Powder/Haldi</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹52
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹37
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹37
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Tata Premium Tea (Pouch)</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹180
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹169
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹169
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Tata Salt</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹19
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹16
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹16
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Dhampure Sulphurless Sugar</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹62
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹56
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">2</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹112
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Pears Oil Clear &amp; Glow Soap</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹39
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹36
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹36
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Mother's Choice Chitra White Rajma</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹90
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹50
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">2</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹100
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Dhuli Moong Dal</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹90
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹74
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">2</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹148
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Best Value Arhar Dal/Toor Dal</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹120
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹68
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹68
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Kabuli Chana</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹154
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹57
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹57
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Tata Sampann Chilka/Split Unpolished Green Moong Dal</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹63
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹51
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">2</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹102
+                        </td>
+                      </tr>
+                      <tr style="padding:0;text-align:left;vertical-align:top;">
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:left;vertical-align:top;word-wrap:break-word;">Gainda White Phenyl</td>
+                        <td class="break-through-text" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;text-decoration:line-through;vertical-align:top;word-wrap:break-word;">₹200
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">₹150
+                        </td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:center;vertical-align:top;word-wrap:break-word;">1</td>
+                        <td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:normal;padding:0;padding-bottom:16px;text-align:right;vertical-align:top;word-wrap:break-word;">₹150
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                  <div class="solid-separator solid-separator--less-margin" style="border-top:1px solid #eee;margin-bottom:16px;margin-top:0;"></div>
+                  <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                    <tr style="padding:0;text-align:left;vertical-align:top;">
+                      <td class="order-placed__sub-total-amount" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:500;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">Sub Total</td>
+                      <td class="order-placed__sub-total-amount text-right" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:500;line-height:1.3;padding:0;text-align:right;vertical-align:top;word-wrap:break-word;">₹2526
+                      </td>
+                    </tr>
+                  </table>
+                </th>
+                <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+</tbody>
+</table>
+<table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+  <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+    <tbody>
+      <tr style="padding:0;text-align:left;vertical-align:top;">
+        <th class="secondary-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:left;width:564px;">
+          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+            <tr style="padding:0;text-align:left;vertical-align:top;">
+              <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+                <table class="order-placed__amount-summary" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+                  <tr style="padding:0;text-align:left;vertical-align:top;">
+                    <th style="margin:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:500;line-height:1.3;padding:0;text-align:left;">Total</th>
+                    <td class="text-right" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:500;line-height:1.3;padding:0;padding-bottom:8px;text-align:right;vertical-align:top;word-wrap:break-word;">₹2526
+                    </td>
+                  </tr>
+                   <tr style="padding:0;text-align:left;vertical-align:top;">
+              <th style="margin:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:500;line-height:1.3;padding:0;text-align:left;">Delivery Charges</th>
+              <td class="text-right" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:500;line-height:1.3;padding:0;padding-bottom:0;text-align:right;vertical-align:top;word-wrap:break-word;">
+                 FREE
+              </td>
+            </tr>
+          </table>
+          <div class="solid-separator" style="border-top:1px solid #eee;margin-bottom:16px;margin-top:16px;"></div>
+          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+            <tr style="padding:0;text-align:left;vertical-align:top;">
+              <th class="order-placed__payable-amount" style="margin:0;color:#333;font-family:sans-serif;font-size:14px;font-weight:600;line-height:1.3;padding:0;text-align:left;">Payable Amount</th>
+              <td class="order-placed__payable-amount text-right" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#333;font-family:sans-serif;font-size:14px;font-weight:600;line-height:1.3;padding:0;text-align:right;vertical-align:top;word-wrap:break-word;">₹2526
+              </td>
+            </tr>
+          </table>
+          <div class="dash-separator" style="border-top:1px dashed #dbdbdb;margin-bottom:16px;margin-top:16px;"></div>
+          <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+            <tr style="padding:0;text-align:left;vertical-align:top;">
+              <th class="order-placed__savings-amount" style="margin:0;color:#ee0606;font-family:sans-serif;font-size:14px;font-weight:500;line-height:1.3;padding:0;text-align:left;">
+                 Your SBC Savings
+              </th>
+              <td class="order-placed__savings-amount text-right" style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#ee0606;font-family:sans-serif;font-size:14px;font-weight:500;line-height:1.3;padding:0;text-align:right;vertical-align:top;word-wrap:break-word;">₹825 (24.62%)</td>
+            </tr>
+          </table>
+
+      </th>
+      <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+    </tr>
+  </table>
+</th>
+</tr>
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th class="banner-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:564px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+  <tr style="padding:0;text-align:left;vertical-align:top;">
+    <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+       <a href="https://mandrillapp.com/track/click/30306790/ad.apsalar.com?p=eyJzIjoiR3paNzlDZjlyZ0EyLUxqOGk2V2pPVVMzNFI0IiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2FkLmFwc2FsYXIuY29tXFxcL2FwaVxcXC92MVxcXC9hZD9yZT0xJnN0PTUzNDI1NjU5MzQ4OCZoPTIyZTA1NzM5OTQ4YmQyNjFhODYxOWY5ZmUwNzMyZGI1MGE1MWRiMDBcIixcImlkXCI6XCI5M2VhM2NhMWY0ODI0YjE3YTk5MDgxNzZmZmQwMTgxMFwiLFwidXJsX2lkc1wiOltcIjg0ZTQ1NWY3ZTU4MTViMjIzZGIxN2NmY2VlOWVhMWQyY2Q4Y2Y3NjFcIl19In0" style="margin:0;color:#2199e8;font-family:sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none;"><img alt="promotion" class="promotion-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/sbc-banner.jpg" style="-ms-interpolation-mode:bicubic;background:#e96125;border:none;border-radius:6px;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+    </th>
+    <th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+  </tr>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th class="order-placed__promises small-12 large-4 columns first" style="margin:0 auto;border-right:1px solid #eee;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:32px;padding-left:24px;padding-right:24px;padding-top:32px;text-align:left;width:177.33px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+  <tr style="padding:0;text-align:left;vertical-align:top;">
+    <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+      <p class="para--no-margin text-center" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:0;padding:0;text-align:center;"><img class="display--inline-block order-placed__promises-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/lowest-price.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:64px" alt="lowest-price.png"><span class="order-placed__promises-desc hyphens" style="-moz-hyphens:initial;-ms-hyphens:initial;-webkit-hyphens:initial;display:block;hyphens:initial"><span class="order-placed__promises-text" style="color:#333;display:inline-block;font-weight:700;margin-bottom:8px;margin-top:24px">Lowest Price<br>Guaranteed</span>
+      <br><span class="font-size--small" style="font-size:12px!important">Lowest price, or we refund the difference</span></span>
+    </p>
+  </th>
+</tr>
+</table>
+</th>
+<th class="order-placed__promises small-12 large-4 columns" style="margin:0 auto;border-right:1px solid #eee;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:32px;padding-left:24px;padding-right:24px;padding-top:32px;text-align:left;width:177.33px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+<tr style="padding:0;text-align:left;vertical-align:top;">
+  <th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+    <p class="para--no-margin text-center" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:0;padding:0;text-align:center;"><img class="display--inline-block order-placed__promises-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/delivered-items.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:64px" alt="delivered-items.png"><span class="order-placed__promises-desc hyphens" style="-moz-hyphens:initial;-ms-hyphens:initial;-webkit-hyphens:initial;display:block;hyphens:initial"><span class="order-placed__promises-text" style="color:#333;display:inline-block;font-weight:700;margin-bottom:8px;margin-top:24px">100% Items<br>Delivered</span>
+    <br><span class="font-size--small" style="font-size:12px!important">Guaranteed delivery of all items, or we refund 150% of the missing value</span></span>
+  </p>
+</th>
+</tr>
+</table>
+</th>
+<th class="order-placed__promises order-placed__promises--last small-12 large-4 columns last" style="margin:0 auto;border-right:none;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:32px;padding-left:24px;padding-right:24px;padding-top:32px;text-align:left;width:177.33px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+  <p class="para--no-margin text-center" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:0;padding:0;text-align:center;"><img class="display--inline-block order-placed__promises-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/easy-returns.png" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:64px" alt="easy-returns.png"><span class="order-placed__promises-desc hyphens" style="-moz-hyphens:initial;-ms-hyphens:initial;-webkit-hyphens:initial;display:block;hyphens:initial"><span class="order-placed__promises-text" style="color:#333;display:inline-block;font-weight:700;margin-bottom:8px;margin-top:24px">Easy Returns &amp;<br>Refunds</span>
+  <br><span class="font-size--small" style="font-size:12px!important">No question-asked returns - we accept returns at the time of delivery</span></span>
+</p>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="center" class="container float-center" style="margin:0 auto;background:#fefefe;background-color:#fff;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:4px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th class="primary-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:left;width:564px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+<p class="query__heading" style="margin:0;margin-bottom:0;color:#333;font-family:sans-serif;font-size:14px;font-weight:600;line-height:1.4;margin-top:5px;padding:0;text-align:left;">Have a question?</p>
+<p class="query__text hyphens" style="-ms-hyphens:initial;-webkit-hyphens:initial;margin:0;margin-bottom:0;color:#535353;font-family:sans-serif;font-size:14px;font-weight:500;line-height:1.4;margin-top:8px;padding:0;text-align:left;">Feel free to shoot an email at <span class="query__text--email" style="color:#e14a1d">info@grofers.com</span> or reach out to us via in-app support for any query or suggestion.</p>
+</th>
+<th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+</tr>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th class="secondary-column thank-you small-12 large-12 columns first last" style="margin:0 auto;background-color:#fcfcfc;border-bottom-left-radius:6px;border-bottom-right-radius:6px;border-top:1px solid #eee;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:left;width:564px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+<p style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:5px;padding:0;text-align:left;">Regards,</p>
+<p class="thank-you__name" style="margin:0;margin-bottom:0;color:#333;font-family:sans-serif;font-size:14px;font-weight:500;line-height:1.4;margin-top:5px;padding:0;text-align:left;">Team Grofers</p>
+</th>
+<th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+</tr>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th class="secondary-column grofers-footer-strip small-12 large-12 columns first last" style="margin:0 auto;background-color:#fcfcfc;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:0 !important;text-align:left;width:564px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+<a href="https://mandrillapp.com/track/click/30306790/ad.apsalar.com?p=eyJzIjoiR3paNzlDZjlyZ0EyLUxqOGk2V2pPVVMzNFI0IiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2FkLmFwc2FsYXIuY29tXFxcL2FwaVxcXC92MVxcXC9hZD9yZT0xJnN0PTUzNDI1NjU5MzQ4OCZoPTIyZTA1NzM5OTQ4YmQyNjFhODYxOWY5ZmUwNzMyZGI1MGE1MWRiMDBcIixcImlkXCI6XCI5M2VhM2NhMWY0ODI0YjE3YTk5MDgxNzZmZmQwMTgxMFwiLFwidXJsX2lkc1wiOltcIjg0ZTQ1NWY3ZTU4MTViMjIzZGIxN2NmY2VlOWVhMWQyY2Q4Y2Y3NjFcIl19In0" style="margin:0;color:#2199e8;font-family:sans-serif;font-weight:400;line-height:1.3;padding:0;text-align:left;text-decoration:none;"><img alt="promotion" class="promotion-img" src="https://s3.ap-south-1.amazonaws.com/grofers-consumer-webcdn/emails/images/supermrs_strip.jpg" style="-ms-interpolation-mode:bicubic;background:#e96125;border:none;border-radius:6px;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:100%"></a>
+</th>
+<th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+</tr>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Renders partials/footer.html -->
+<table align="center" class="container footer-container float-center" style="margin:0 auto;background:#fefefe;background-color:#e96125;border-collapse:collapse;border-radius:6px;border-spacing:0;float:none;margin-bottom:48px;margin-top:48px;max-width:600px;padding:0;text-align:center;vertical-align:top;width:100% !important;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<td style="-webkit-hyphens:auto;margin:0;border-collapse:collapse !important;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.3;padding:0;text-align:left;vertical-align:top;word-wrap:break-word;">
+<table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;">
+<tbody>
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th class="footer-column small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;padding-bottom:0;padding-left:0;padding-right:0;text-align:left;width:564px;">
+<table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;">
+<tr style="padding:0;text-align:left;vertical-align:top;">
+<th style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0;text-align:left;">
+<p class="text-center" style="margin:0;margin-bottom:0;color:#666;font-family:sans-serif;font-size:13px;font-weight:400;line-height:1.4;margin-top:5px;padding:0;text-align:center;"><a class="footer-icons" href="https://mandrillapp.com/track/click/30306790/www.facebook.com?p=eyJzIjoidmFLM1hZSGRlcVNoN2R1MThZOUlhczdQcVhrIiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5mYWNlYm9vay5jb21cXFwvR3JvZmVyc1wiLFwiaWRcIjpcIjkzZWEzY2ExZjQ4MjRiMTdhOTkwODE3NmZmZDAxODEwXCIsXCJ1cmxfaWRzXCI6W1wiYjEwYWFjNTk3ZDhhNzgwMzMyMzJmZmUxYjk3ZmVhNzM5ZjJhODFhNFwiXX0ifQ" target="_blank" style="margin:0;background-color:#fff;border-radius:6px;color:#2199e8;display:inline-block;font-family:sans-serif;font-weight:400;height:50px;line-height:1.3;margin-right:24px;padding:0;text-align:left;text-decoration:none;vertical-align:middle;width:50px;"><img alt="facebook" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/icons_colored/Facebook.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a><a class="footer-icons" href="https://mandrillapp.com/track/click/30306790/www.twitter.com?p=eyJzIjoiMVFOWlFsTmpvMWQ0QjhldHo1Z1BJM3Z4TDVzIiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy50d2l0dGVyLmNvbVxcXC9Hcm9mZXJzXCIsXCJpZFwiOlwiOTNlYTNjYTFmNDgyNGIxN2E5OTA4MTc2ZmZkMDE4MTBcIixcInVybF9pZHNcIjpbXCJhZGM0NTg5MTUyOTM3YTNjZmRkMDg0MTY2ZGMzOGJkYWMyMjY2ZGU0XCJdfSJ9" target="_blank" style="margin:0;background-color:#fff;border-radius:6px;color:#2199e8;display:inline-block;font-family:sans-serif;font-weight:400;height:50px;line-height:1.3;margin-right:24px;padding:0;text-align:left;text-decoration:none;vertical-align:middle;width:50px;"><img alt="twitter" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/icons_colored/Twitter.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a><a class="footer-icons" href="https://mandrillapp.com/track/click/30306790/www.instagram.com?p=eyJzIjoidkw3SWtTNV9fTER3YkdnZ09UNF9udThmRFZFIiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5pbnN0YWdyYW0uY29tXFxcL2dyb2ZlcnNcIixcImlkXCI6XCI5M2VhM2NhMWY0ODI0YjE3YTk5MDgxNzZmZmQwMTgxMFwiLFwidXJsX2lkc1wiOltcImU1ZmFjODBhMTIxMjlhNjYxYmU0NzdjZGFmMTFmYTlmMWUxOWQxMjFcIl19In0" target="_blank" style="margin:0;background-color:#fff;border-radius:6px;color:#2199e8;display:inline-block;font-family:sans-serif;font-weight:400;height:50px;line-height:1.3;margin-right:24px;padding:0;text-align:left;text-decoration:none;vertical-align:middle;width:50px;"><img alt="instagram" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/icons_colored/Instagram.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a><a class="footer-icons" href="https://mandrillapp.com/track/click/30306790/www.linkedin.com?p=eyJzIjoiLTZmT3JweThGbDhuZ2stS2JKaEcwZEFSbTM0IiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5saW5rZWRpbi5jb21cXFwvY29tcGFueVxcXC9ncm9mZXJzXCIsXCJpZFwiOlwiOTNlYTNjYTFmNDgyNGIxN2E5OTA4MTc2ZmZkMDE4MTBcIixcInVybF9pZHNcIjpbXCIwN2Y2OTg0ZTE0NzZkN2JlNGM2MWMyNTNhZGJlOWM4MjRiYmQ1ZjQyXCJdfSJ9" target="_blank" style="margin:0;background-color:#fff;border-radius:6px;color:#2199e8;display:inline-block;font-family:sans-serif;font-weight:400;height:50px;line-height:1.3;margin-right:24px;padding:0;text-align:left;text-decoration:none;vertical-align:middle;width:50px;"><img alt="linked-in" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/icons_colored/Linked-in.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a><a class="footer-icons" href="https://mandrillapp.com/track/click/30306790/www.grofers.com?p=eyJzIjoiZFp5THhNOHVoUTR5LXFrUEJqWkZDX051bWNRIiwidiI6MSwicCI6IntcInVcIjozMDMwNjc5MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy5ncm9mZXJzLmNvbVwiLFwiaWRcIjpcIjkzZWEzY2ExZjQ4MjRiMTdhOTkwODE3NmZmZDAxODEwXCIsXCJ1cmxfaWRzXCI6W1wiNjE2ZDU0ODIyMjg4YjMxYzQ0ZmUzNWQ5NDI0NTBmNWEwMTQzZmE3YVwiXX0ifQ" target="_blank" style="margin:0;background-color:#fff;border-radius:6px;color:#2199e8;display:inline-block;font-family:sans-serif;font-weight:400;height:50px;line-height:1.3;margin-right:0;padding:0;text-align:left;text-decoration:none;vertical-align:middle;width:50px;"><img alt="grofers" src="https://s3-us-west-2.amazonaws.com/grofers-stage-consumer-webcdn/emails/images/icons_colored/Grofers.png" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto"></a>
+</p>
+</th>
+<th class="expander" style="margin:0;color:#0a0a0a;font-family:sans-serif;font-size:16px;font-weight:400;line-height:1.3;padding:0 !important;text-align:left;visibility:hidden;width:0;"></th>
+</tr>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+</td>
+</tr>
+</table>
+<!-- prevent Gmail on iOS font size manipulation -->
+<div style="display:none;white-space:nowrap;font:15px courier;line-height:0;">                                                           </div>
+<img src="https://mandrillapp.com/track/open.php?u=30306790&id=93ea3ca1f4824b17a9908176ffd01810" height="1" width="1"></body>
+</html>
